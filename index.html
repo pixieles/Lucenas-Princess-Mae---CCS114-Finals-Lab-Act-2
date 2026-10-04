@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Lucenas | Score Checker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main>
+    <header class="banner">
+      <h1>Score Checker</h1>
+      
+      <p class="hint">Enter your name and score to see your remark. Click the button to start.</p>
+      <button id="startBtn" type="button">Start</button>
+    </header>
+
+    <div id="result" aria-live="polite"></div>
+    <section class="scale">
+
+      <h2>Grading Scale</h2>
+
+      <div class="tiles">
+        <div class="tile t-excellent"><strong>90–100</strong><span>Excellent</span></div>
+        <div class="tile t-passed"><strong>75–89</strong><span>Passed</span></div>
+        <div class="tile t-failed"><strong>Below 75</strong><span>Failed</span></div>
+      </div>
+
+    </section>
+
+  </main>
+ 
+  <script src="script.js"></script>
+</body>
+</html>
+ 
